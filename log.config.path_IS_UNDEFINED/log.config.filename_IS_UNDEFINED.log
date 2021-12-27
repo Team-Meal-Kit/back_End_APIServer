@@ -1,0 +1,844 @@
+INFO  21-12-28 07:08:42[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 4880 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:08:42[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:08:43[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:08:43[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:08:44[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:08:44[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:08:44[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:08:44[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:08:44[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:08:44[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1383 ms
+INFO  21-12-28 07:08:44[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:08:44[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:08:45[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:08:45[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:08:45[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:08:45[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:08:45[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:08:45[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:08:45[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:08:45[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:08:45[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:08:45[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:08:45[main] [MealkitApplication:61] - Started MealkitApplication in 3.771 seconds (JVM running for 5.538)
+INFO  21-12-28 07:09:01[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  21-12-28 07:09:01[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  21-12-28 07:09:01[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  21-12-28 07:09:06[http-nio-8080-exec-2] [HelloController:17] - hello
+INFO  21-12-28 07:09:16[http-nio-8080-exec-3] [HelloController:17] - hello
+INFO  21-12-28 07:09:30[http-nio-8080-exec-4] [HelloController:17] - hello
+INFO  21-12-28 07:10:26[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:10:26[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:10:26[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:10:31[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 3444 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:10:31[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:10:32[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:10:32[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:10:32[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:10:32[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:10:32[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:10:32[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:10:33[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:10:33[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1537 ms
+INFO  21-12-28 07:10:33[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:10:33[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:10:33[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:10:33[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:10:33[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:10:33[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:10:33[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:10:33[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:10:33[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:10:34[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:10:34[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:10:34[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:10:34[main] [MealkitApplication:61] - Started MealkitApplication in 3.463 seconds (JVM running for 5.336)
+INFO  21-12-28 07:10:37[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  21-12-28 07:10:37[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  21-12-28 07:10:37[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  21-12-28 07:10:48[http-nio-8080-exec-2] [HelloController:17] - hello
+INFO  21-12-28 07:11:28[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:11:28[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:11:28[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:12:45[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 23740 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:12:45[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:12:46[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:12:46[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:12:46[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:12:46[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:12:46[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:12:46[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:12:46[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:12:46[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1604 ms
+INFO  21-12-28 07:12:47[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:12:47[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:12:47[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:12:47[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:12:47[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:12:47[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:12:47[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:12:48[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:12:48[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:12:48[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:12:48[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:12:48[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:12:48[main] [MealkitApplication:61] - Started MealkitApplication in 3.882 seconds (JVM running for 6.677)
+INFO  21-12-28 07:12:55[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:12:55[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:12:55[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:13:12[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 19384 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:13:12[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:13:13[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:13:13[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:13:13[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:13:13[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:13:13[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:13:13[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:13:13[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:13:13[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1478 ms
+INFO  21-12-28 07:13:14[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:13:14[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:13:14[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:13:14[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:13:14[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:13:14[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:13:14[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:13:14[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:13:14[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:13:15[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:13:15[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:13:15[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:13:15[main] [MealkitApplication:61] - Started MealkitApplication in 3.372 seconds (JVM running for 5.205)
+INFO  21-12-28 07:13:26[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  21-12-28 07:13:26[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  21-12-28 07:13:26[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  21-12-28 07:13:27[http-nio-8080-exec-1] [HelloController:18] - hello
+INFO  21-12-28 07:13:29[http-nio-8080-exec-2] [HelloController:18] - hello
+INFO  21-12-28 07:13:30[http-nio-8080-exec-3] [HelloController:25] - main
+INFO  21-12-28 07:29:09[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:29:09[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:29:09[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:29:18[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 24876 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:29:18[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:29:19[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:29:19[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:29:19[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:29:19[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:19[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:29:19[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:29:19[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:29:19[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1768 ms
+INFO  21-12-28 07:29:20[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:29:20[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:29:20[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:29:20[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:29:20[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:29:20[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:29:20[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:29:20[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:29:20[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:29:21[main] [PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+INFO  21-12-28 07:29:21[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:29:21[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:21[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:29:21[main] [DocumentationPluginsBootstrapper:160] - Context refreshed
+INFO  21-12-28 07:29:21[main] [DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+WARN  21-12-28 07:29:21[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+INFO  21-12-28 07:29:21[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:29:21[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:29:21[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:29:22[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:22[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  21-12-28 07:29:22[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:22[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:22[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 21-12-28 07:29:22[main] [SpringApplication:819] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.teammealkit.mealkit.MealkitApplication.main(MealkitApplication.java:9)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1442)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+INFO  21-12-28 07:29:53[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 18676 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:29:53[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:29:54[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:29:54[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:29:55[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:29:55[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:55[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:29:55[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:29:55[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:29:55[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1506 ms
+INFO  21-12-28 07:29:55[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:29:55[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:29:55[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:29:55[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:29:55[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:29:55[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:29:56[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:29:56[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:29:56[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:29:56[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:29:56[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:29:56[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:29:56[main] [MealkitApplication:61] - Started MealkitApplication in 3.408 seconds (JVM running for 5.498)
+INFO  21-12-28 07:30:00[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:30:00[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:30:00[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:30:10[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 20968 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:30:10[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:30:11[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:30:11[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:30:12[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:30:12[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:30:12[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:30:12[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:30:12[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:30:12[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1939 ms
+INFO  21-12-28 07:30:12[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:30:12[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:30:12[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:30:12[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:30:12[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:30:13[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:30:13[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:30:13[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:30:13[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:30:13[main] [PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+INFO  21-12-28 07:30:13[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:30:13[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:30:13[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:30:13[main] [DocumentationPluginsBootstrapper:160] - Context refreshed
+INFO  21-12-28 07:30:13[main] [DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+WARN  21-12-28 07:30:13[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+INFO  21-12-28 07:30:13[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:30:13[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:30:14[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:30:14[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:30:14[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  21-12-28 07:30:14[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:30:14[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:30:15[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 21-12-28 07:30:15[main] [SpringApplication:819] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.teammealkit.mealkit.MealkitApplication.main(MealkitApplication.java:9)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1442)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+INFO  21-12-28 07:32:32[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 23768 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:32:32[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:32:33[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:32:33[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:32:34[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:32:34[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:32:34[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:32:34[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:32:34[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:32:34[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1835 ms
+INFO  21-12-28 07:32:34[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:32:34[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:32:34[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:32:34[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:32:34[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:32:35[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:32:35[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:32:35[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:32:35[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:32:35[main] [PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+INFO  21-12-28 07:32:35[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:32:35[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:32:35[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:32:35[main] [DocumentationPluginsBootstrapper:160] - Context refreshed
+INFO  21-12-28 07:32:36[main] [DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+WARN  21-12-28 07:32:36[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+INFO  21-12-28 07:32:36[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:32:36[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:32:36[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:32:37[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:32:37[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  21-12-28 07:32:37[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:32:37[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:32:37[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 21-12-28 07:32:37[main] [SpringApplication:819] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.teammealkit.mealkit.MealkitApplication.main(MealkitApplication.java:9)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1442)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+INFO  21-12-28 07:33:10[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 8228 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:33:10[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:33:11[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:33:11[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:33:12[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:33:12[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:33:12[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:33:12[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:33:12[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:33:12[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1698 ms
+INFO  21-12-28 07:33:12[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:33:12[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:33:12[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:33:12[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:33:12[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:33:13[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:33:13[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:33:13[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:33:13[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:33:13[main] [PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+INFO  21-12-28 07:33:13[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:33:13[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:33:13[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:33:13[main] [DocumentationPluginsBootstrapper:160] - Context refreshed
+INFO  21-12-28 07:33:13[main] [DocumentationPluginsBootstrapper:163] - Found 1 custom documentation plugin(s)
+WARN  21-12-28 07:33:13[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+INFO  21-12-28 07:33:13[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:33:13[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:33:14[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:33:15[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:33:15[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  21-12-28 07:33:15[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:33:15[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:33:15[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 21-12-28 07:33:15[main] [SpringApplication:819] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.teammealkit.mealkit.MealkitApplication.main(MealkitApplication.java:9)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1442)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+INFO  21-12-28 07:36:26[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 14996 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:36:26[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:36:27[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:36:27[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:36:28[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:36:28[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:36:28[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:36:28[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:36:28[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:36:28[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1748 ms
+INFO  21-12-28 07:36:28[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:36:28[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:36:29[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:36:29[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:36:29[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:36:29[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:36:29[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:36:29[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:36:29[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:36:30[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:36:30[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:36:30[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+WARN  21-12-28 07:36:30[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+INFO  21-12-28 07:36:30[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:36:30[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:36:30[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:36:31[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:36:31[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  21-12-28 07:36:31[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:36:31[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:36:31[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 21-12-28 07:36:31[main] [SpringApplication:819] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.teammealkit.mealkit.MealkitApplication.main(MealkitApplication.java:9)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1516)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1749)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+INFO  21-12-28 07:42:02[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 27008 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:42:02[main] [MealkitApplication:635] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:42:03[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  21-12-28 07:42:03[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:42:03[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:42:03[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:42:03[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:42:03[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO  21-12-28 07:42:03[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:42:03[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1726 ms
+INFO  21-12-28 07:42:04[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:42:04[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:42:04[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:42:04[main] [Version:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO  21-12-28 07:42:04[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  21-12-28 07:42:04[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:42:04[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:42:04[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  21-12-28 07:42:05[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:42:05[main] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:42:05[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:42:05[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+WARN  21-12-28 07:42:05[main] [AnnotationConfigServletWebServerApplicationContext:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+INFO  21-12-28 07:42:05[main] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:42:05[main] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:42:05[main] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:42:06[main] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:42:06[main] [StandardService:173] - Stopping service [Tomcat]
+INFO  21-12-28 07:42:06[main] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:42:06[main] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:42:06[main] [ConditionEvaluationReportLoggingListener:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 21-12-28 07:42:06[main] [SpringApplication:819] - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.teammealkit.mealkit.MealkitApplication.main(MealkitApplication.java:9)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1516)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1749)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+INFO  21-12-28 07:45:25[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 23068 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:45:25[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:45:26[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 07:45:26[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:45:27[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:45:27[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:45:27[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:45:27[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 07:45:27[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:45:27[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1901 ms
+INFO  21-12-28 07:45:27[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 07:45:27[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:45:27[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:45:27[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:45:27[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 07:45:27[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 07:45:27[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:45:27[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:45:28[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:45:28[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:45:28[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:45:28[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:45:28[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:45:28[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 07:45:28[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 07:45:28[main] [MealkitApplication:61] - Started MealkitApplication in 3.83 seconds (JVM running for 5.753)
+INFO  21-12-28 07:45:46[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  21-12-28 07:45:46[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  21-12-28 07:45:46[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  21-12-28 07:45:46[http-nio-8080-exec-1] [HelloController:18] - hello
+INFO  21-12-28 07:45:51[http-nio-8080-exec-2] [HelloController:25] - main
+INFO  21-12-28 07:57:51[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:57:51[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 07:57:51[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 07:57:51[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 07:58:00[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 27132 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 07:58:00[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 07:58:01[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 07:58:01[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 07:58:01[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 07:58:01[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:58:01[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 07:58:01[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 07:58:01[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 07:58:01[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1709 ms
+INFO  21-12-28 07:58:02[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 07:58:02[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 07:58:02[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 07:58:02[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 07:58:02[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 07:58:02[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 07:58:02[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 07:58:02[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 07:58:02[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 07:58:02[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 07:58:02[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 07:58:03[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 07:58:03[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 07:58:03[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 07:58:03[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 07:58:03[main] [MealkitApplication:61] - Started MealkitApplication in 3.548 seconds (JVM running for 5.836)
+INFO  21-12-28 08:01:47[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:01:47[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:01:47[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 08:01:47[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 08:01:54[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 11820 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 08:01:54[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 08:01:55[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 08:01:55[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 08:01:56[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 08:01:56[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:01:56[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 08:01:56[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 08:01:56[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 08:01:56[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1851 ms
+INFO  21-12-28 08:01:56[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:01:56[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 08:01:56[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 08:01:57[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 08:01:57[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 08:01:57[task-1] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 08:01:57[task-1] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 08:01:57[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 08:01:57[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 08:01:57[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:01:57[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 08:01:57[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 08:01:57[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 08:01:57[main] [MealkitApplication:61] - Started MealkitApplication in 3.608 seconds (JVM running for 5.58)
+INFO  21-12-28 08:01:58[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 08:01:58[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:03:59[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:03:59[SpringContextShutdownHook] [SchemaDropperImpl$DelayedDropActionImpl:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+INFO  21-12-28 08:03:59[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:03:59[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 08:04:00[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 08:04:07[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 13724 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 08:04:07[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 08:04:08[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 08:04:08[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 08:04:09[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 08:04:09[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:04:09[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 08:04:09[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 08:04:09[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 08:04:09[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1877 ms
+INFO  21-12-28 08:04:09[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:04:09[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 08:04:09[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 08:04:09[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 08:04:09[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 08:04:09[task-1] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 08:04:10[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 08:04:10[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:04:10[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 08:04:10[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 08:04:10[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 08:04:10[main] [MealkitApplication:61] - Started MealkitApplication in 3.691 seconds (JVM running for 5.582)
+INFO  21-12-28 08:04:10[task-1] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 08:04:10[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 08:04:10[task-1] [PojoInstantiator:47] - HHH000182: No default (no-argument) constructor for class: com.teammealkit.mealkit.client.domain.Client (class must be instantiated by Interceptor)
+INFO  21-12-28 08:04:11[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 08:04:11[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:04:28[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:04:28[SpringContextShutdownHook] [SchemaDropperImpl$DelayedDropActionImpl:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+INFO  21-12-28 08:04:28[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:04:28[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 08:04:29[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 08:04:35[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 15028 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 08:04:35[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 08:04:36[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 08:04:36[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+INFO  21-12-28 08:04:37[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 08:04:37[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:04:37[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 08:04:37[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 08:04:37[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 08:04:37[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 1695 ms
+INFO  21-12-28 08:04:37[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:04:37[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 08:04:37[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 08:04:37[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 08:04:37[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 08:04:37[task-1] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 08:04:38[task-1] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 08:04:38[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 08:04:38[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 08:04:38[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:04:38[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 08:04:38[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 08:04:38[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 08:04:38[main] [MealkitApplication:61] - Started MealkitApplication in 3.309 seconds (JVM running for 5.198)
+INFO  21-12-28 08:04:39[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 08:04:39[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:13:28[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:13:28[SpringContextShutdownHook] [SchemaDropperImpl$DelayedDropActionImpl:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+INFO  21-12-28 08:13:28[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:13:28[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 08:13:28[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 08:13:36[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 20348 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 08:13:36[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 08:13:37[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 08:13:37[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+INFO  21-12-28 08:13:38[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 08:13:38[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:13:38[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 08:13:38[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 08:13:38[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 08:13:38[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 2096 ms
+INFO  21-12-28 08:13:38[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:13:38[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 08:13:38[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 08:13:39[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 08:13:39[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 08:13:39[task-1] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 08:13:39[task-1] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 08:13:39[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 08:13:39[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 08:13:39[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:13:39[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 08:13:39[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 08:13:40[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 08:13:40[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:13:40[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 08:13:40[main] [MealkitApplication:61] - Started MealkitApplication in 4.309 seconds (JVM running for 6.229)
+INFO  21-12-28 08:17:48[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:17:48[SpringContextShutdownHook] [SchemaDropperImpl$DelayedDropActionImpl:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+INFO  21-12-28 08:17:48[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:17:48[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 08:17:48[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  21-12-28 08:17:54[main] [MealkitApplication:55] - Starting MealkitApplication using Java 12.0.2 on DESKTOP-7VTM39H with PID 13008 (D:\team_mealkit\mealkit\build\classes\java\main started by Jinu in D:\team_mealkit\mealkit)
+INFO  21-12-28 08:17:54[main] [MealkitApplication:660] - No active profile set, falling back to default profiles: default
+INFO  21-12-28 08:17:55[main] [RepositoryConfigurationDelegate:128] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  21-12-28 08:17:55[main] [RepositoryConfigurationDelegate:188] - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+INFO  21-12-28 08:17:56[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  21-12-28 08:17:56[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:17:56[main] [StandardService:173] - Starting service [Tomcat]
+INFO  21-12-28 08:17:56[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+INFO  21-12-28 08:17:56[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  21-12-28 08:17:56[main] [ServletWebServerApplicationContext:289] - Root WebApplicationContext: initialization completed in 2050 ms
+INFO  21-12-28 08:17:56[main] [ThreadPoolTaskExecutor:181] - Initializing ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:17:56[task-1] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  21-12-28 08:17:56[task-1] [Version:44] - HHH000412: Hibernate ORM core version 5.4.23.Final
+INFO  21-12-28 08:17:57[task-1] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  21-12-28 08:17:57[main] [JpaBaseConfiguration$JpaWebConfiguration:221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  21-12-28 08:17:57[task-1] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  21-12-28 08:17:57[task-1] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  21-12-28 08:17:57[task-1] [Dialect:170] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+INFO  21-12-28 08:17:57[main] [WelcomePageHandlerMapping:54] - Adding welcome page: class path resource [static/index.html]
+INFO  21-12-28 08:17:57[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  21-12-28 08:17:57[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  21-12-28 08:17:57[main] [DeferredRepositoryInitializationListener:51] - Triggering deferred initialization of Spring Data repositories…
+INFO  21-12-28 08:17:58[task-1] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  21-12-28 08:17:58[task-1] [LocalContainerEntityManagerFactoryBean:434] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:17:58[main] [DeferredRepositoryInitializationListener:55] - Spring Data repositories initialized!
+INFO  21-12-28 08:17:58[main] [MealkitApplication:61] - Started MealkitApplication in 4.22 seconds (JVM running for 6.852)
+INFO  21-12-28 08:18:03[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  21-12-28 08:18:03[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  21-12-28 08:18:03[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  21-12-28 08:27:02[SpringContextShutdownHook] [LocalContainerEntityManagerFactoryBean:648] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  21-12-28 08:27:02[SpringContextShutdownHook] [SchemaDropperImpl$DelayedDropActionImpl:526] - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+INFO  21-12-28 08:27:02[SpringContextShutdownHook] [ThreadPoolTaskExecutor:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  21-12-28 08:27:02[SpringContextShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  21-12-28 08:27:02[SpringContextShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
