@@ -39,6 +39,5 @@ out/
 ### properties ###
 **/application.properties
 
-### logback ###
-log.config.path_IS_UNDEFINED/err_log.log
-log.config.path_IS_UNDEFINED/log.config.filename_IS_UNDEFINED.log
+### log ###
+*.log
