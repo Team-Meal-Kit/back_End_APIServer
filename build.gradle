@@ -30,13 +30,9 @@ dependencies {
 	// slf4j & logback
 	implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16'
 
-	// swagger : https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
-	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
-
 	// swagger2 : https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
 	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
 	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
-
 }
 
 test {

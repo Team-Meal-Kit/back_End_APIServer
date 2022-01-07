@@ -34,8 +34,15 @@ public class ClientController {
 
     @GetMapping()
     public ResponseEntity selectClient(@RequestParam(required = false) Long id) {
+        log.error("error message");
+        log.warn("warn message");
+        log.info("info message");
+        log.debug("debug message");
+        log.trace("trace message");
+
         if (id == null)
             return ResponseEntity.ok(clientService.selectClientList());
+
         return ResponseEntity.ok(clientService.selectClient(id));
     }
 }

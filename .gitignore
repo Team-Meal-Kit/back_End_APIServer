@@ -38,3 +38,6 @@ out/
 
 ### properties ###
 **/application.properties
+
+### logback ###
+log.config.path_IS_UNDEFINED/
