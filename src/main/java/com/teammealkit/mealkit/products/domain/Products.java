@@ -1,17 +1,14 @@
 package com.teammealkit.mealkit.products.domain;
 
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jdk.jfr.Timestamp;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "products")
-@Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Data
 public class Products {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,31 +18,32 @@ public class Products {
     @Column(name = "name", length = 64, nullable = false)
     private String name;
 
-    @Column()
+    @Column(name = "price")
     private Long price;
 
-    @Column()
+    @Column(name = "count")
     private Integer count;
 
-    @Column()
+    @Column(name = "discount")
     private Integer discount;
 
-    @Column(length = 256)
+    @Column(name = "img_main", length = 256)
     private String img_main;
 
-    @Column(length = 256)
+    @Column(name = "img_content",length = 256)
     private String img_content;
 
-    @Column(length = 256)
+    @Column(name = "content",length = 256)
     private String content;
 
-    @Column()
-    private Integer view_cnt;
+    @Column(name = "view_cnt")
+    private Integer view_count;
 
-    @Column()
-    private Integer sales_cnt;
+    @Column(name = "sales_cnt")
+    private Integer sales_count;
 
-    @Column()
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "reg_date")
     private Date reg_date;
 
     @Column(length = 16)
