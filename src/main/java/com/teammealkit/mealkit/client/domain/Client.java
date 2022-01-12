@@ -11,6 +11,7 @@ import javax.persistence.*;
 public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
     private Long num;
 
     @Column(length = 32, nullable = false)
