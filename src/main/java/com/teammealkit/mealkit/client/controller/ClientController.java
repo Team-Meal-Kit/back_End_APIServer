@@ -48,6 +48,6 @@ public class ClientController {
     // 회원가입
     @PostMapping()
     public ResponseEntity createClient(@RequestBody ClientCreateDTO dto) {
-        return ResponseEntity.ok(clientService.createClient(dto));
+        return ResponseEntity.ok(clientService.createClient(dto));      // 200, message 로 변경할 것.. 중복검사 등 추가
     }
 }

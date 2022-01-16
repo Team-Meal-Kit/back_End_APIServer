@@ -1,4 +1,4 @@
-package com.teammealkit.mealkit;
+package com.teammealkit.mealkit.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

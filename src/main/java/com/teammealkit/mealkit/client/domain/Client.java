@@ -12,6 +12,7 @@ import java.sql.Date;
 @Builder
 @AllArgsConstructor
 @DynamicUpdate
+// 도메인 sweager 해야함
 public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
