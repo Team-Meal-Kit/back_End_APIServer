@@ -1,10 +1,15 @@
 package com.teammealkit.mealkit.client.domain;
 
+import com.teammealkit.mealkit.BaseTimeEntity;
 import lombok.*;
 import org.hibernate.annotations.DynamicUpdate;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.sql.Date;
+import java.time.LocalDateTime;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
@@ -13,7 +18,7 @@ import java.sql.Date;
 @AllArgsConstructor
 @DynamicUpdate
 // 도메인 sweager 해야함
-public class Client {
+public class Client extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idx;
@@ -26,9 +31,6 @@ public class Client {
 
     @Column(length = 16, nullable = false)
     private String name;
-
-    @Column(length = 16, nullable = false)
-    private Date reg_date;
 
     @Column(length = 16, nullable = false)
     private Date birthday;

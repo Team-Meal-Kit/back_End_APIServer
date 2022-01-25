@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.sql.Date;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -14,7 +15,7 @@ public class ClientCreateDTO {
     private String email;
     private String pw;
     private String name;
-    private Date reg_date;
+//    private LocalDateTime reg_date;
     private Date birthday;
     private String address;
     private String phone;
@@ -26,7 +27,7 @@ public class ClientCreateDTO {
                 .email(this.email)
                 .pw(this.pw)
                 .name(this.name)
-                .reg_date(this.reg_date)
+//                .reg_date(this.reg_date)
                 .birthday(this.birthday)
                 .address(this.address)
                 .phone(this.phone)
