@@ -1,4 +1,4 @@
-package com.teammealkit.mealkit.products.repository;
+package com.teammealkit.mealkit.product.repository;
 
-public class ProductsDao {
+public class ProductDao {
 }

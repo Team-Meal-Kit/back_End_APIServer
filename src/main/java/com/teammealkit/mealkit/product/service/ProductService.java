@@ -1,7 +1,7 @@
-package com.teammealkit.mealkit.products.service;
+package com.teammealkit.mealkit.product.service;
 
-import com.teammealkit.mealkit.products.domain.Products;
-import com.teammealkit.mealkit.products.repository.ProductsRepository;
+import com.teammealkit.mealkit.product.domain.Product;
+import com.teammealkit.mealkit.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
@@ -11,12 +11,12 @@ import java.util.Optional;
 @Service
 @RequiredArgsConstructor
 @Lazy
-public class ProductsService {
+public class ProductService {
 
-    private final ProductsRepository productsRepository;
+    private final ProductRepository productRepository;
 
-    public Optional<Products> productInfo(Long id){
-       return productsRepository.findAllById(id);
+    public Optional<Product> productInfo(Long id){
+       return productRepository.findAllById(id);
     }
 
 }

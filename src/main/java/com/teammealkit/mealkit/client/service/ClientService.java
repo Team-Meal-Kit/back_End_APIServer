@@ -14,6 +14,8 @@ import java.util.List;
 public class ClientService {
     private final ClientRepository clientRepository;
 
+    /*
+
     // SELECT client
     public Client selectClient(Long id) {
         Client client = clientRepository
@@ -24,6 +26,8 @@ public class ClientService {
 
         return client;
     }
+
+     */
 
     //SELECT ALL Clients
     public List<Client> selectClientList() {

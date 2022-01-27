@@ -1,4 +1,4 @@
-package com.teammealkit.mealkit.products.domain;
+package com.teammealkit.mealkit.product.domain;
 
 import com.teammealkit.mealkit.cart.domain.Cart;
 import lombok.*;
@@ -8,12 +8,12 @@ import java.util.Date;
 import java.util.Set;
 
 @Entity
-@Table(name = "products")
+@Table(name = "product")
 @Data
-public class Products {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "p_num", nullable = false, updatable = false)
+    @Column(name = "product_id", nullable = false, updatable = false)
     private Long id;
 
     @Column(name = "name", length = 64, nullable = false)
@@ -50,7 +50,7 @@ public class Products {
     @Column(length = 16)
     private String status;
 
-    @OneToMany(mappedBy = "products")
+    @OneToMany(mappedBy = "product")
     Set<Cart> carts;
 
 }
