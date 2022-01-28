@@ -46,7 +46,4 @@ public class Client extends BaseTimeEntity {
 
     @Column(length = 8, columnDefinition = "default '회원'")
     private String role;
-
-//    @Column(length = 64)
-//    private String authKey;
 }
