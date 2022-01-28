@@ -12,6 +12,7 @@ import com.teammealkit.mealkit.product.domain.Product;
 import com.teammealkit.mealkit.product.repository.ProductRepository;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,6 +23,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
+@Slf4j
 @Service
 @Transactional
 @RequiredArgsConstructor
@@ -63,18 +65,27 @@ public class CartService {
         @Transactional(readOnly = true)
         public List<CartListDto> getCartList(Long clientId){
 
-                List<CartListDto> cartListDtos = new ArrayList<>();
 
-                Optional<Client> client = clientRepository.findById(clientId);
-                Cart cart = cartRepository.findByClient_Idx(client.get().getIdx());
 
-                if(cart==null){
+                try {
+                        List<CartListDto> cartListDtos = new ArrayList<>();
+
+                        Optional<Client> client = clientRepository.findById(clientId);
+                        Cart cart = cartRepository.findByClient_Idx(client.get().getIdx());
+
+                        if(cart==null){
+                                return cartListDtos;
+                        }
+
+                        cartListDtos = cartProductsRepository.findCartListDto(cart.getId());
+
                         return cartListDtos;
+
+                }catch(Exception e){
+                        log.error(e.getMessage());
                 }
 
-                cartListDtos = cartProductsRepository.findCartListDto(cart.getId());
 
-                return cartListDtos;
         }
 
         //현재 로그인한 사용자가 장바구니의 주인인지 확인
