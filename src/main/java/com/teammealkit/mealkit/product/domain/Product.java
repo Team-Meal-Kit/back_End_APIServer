@@ -1,17 +1,16 @@
-package com.teammealkit.mealkit.products.domain;
+package com.teammealkit.mealkit.product.domain;
 
-import jdk.jfr.Timestamp;
+import com.teammealkit.mealkit.cart.domain.Cart;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
+import java.util.Set;
 
 @Entity
-@Table(name = "products")
+@Table(name = "product")
 @Data
-public class Products {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "product_id", nullable = false, updatable = false)
@@ -24,10 +23,10 @@ public class Products {
     private Long price;
 
     @Column(name = "count")
-    private Integer count;
+    private int count;
 
     @Column(name = "discount")
-    private Integer discount;
+    private int discount;
 
     @Column(name = "img_main", length = 256)
     private String imgMain;
@@ -39,10 +38,10 @@ public class Products {
     private String content;
 
     @Column(name = "view_cnt")
-    private Integer viewCount;
+    private Long viewCount;
 
     @Column(name = "sales_cnt")
-    private Integer salesCount;
+    private Long salesCount;
 
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "reg_date")
@@ -51,9 +50,5 @@ public class Products {
     @Column(length = 16)
     private String status;
 
-    @ManyToMany
-    @JoinTable(name = "cart", joinColumns = @JoinColumn(name = "user_id"),
-    inverseJoinColumns = @JoinColumn(name = "product_id"))
 
-    private List<Products> products = new ArrayList<Products>();
 }
