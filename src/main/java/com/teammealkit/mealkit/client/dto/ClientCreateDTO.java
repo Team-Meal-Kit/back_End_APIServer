@@ -6,31 +6,31 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.sql.Date;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
 @Builder
 public class ClientCreateDTO {
     private String email;
-    private String pw;
-    private String name;
-    private Date reg_date;
-    private Date birthday;
+    private String password;
+    private String userName;
+    private LocalDate birthDay;
     private String address;
     private String phone;
-    private Long buy_cnt;
+    private Long buyCnt;
     private String role;
 
     public Client toEntity() {
         return Client.builder()
                 .email(this.email)
-                .pw(this.pw)
-                .name(this.name)
-                .reg_date(this.reg_date)
-                .birthday(this.birthday)
+                .password(this.password)
+                .userName(this.userName)
+                .birthDay(this.birthDay)
                 .address(this.address)
                 .phone(this.phone)
-                .buy_cnt(this.buy_cnt)
+                .buyCnt(this.buyCnt)
                 .role(this.role)
                 .build();
     }
