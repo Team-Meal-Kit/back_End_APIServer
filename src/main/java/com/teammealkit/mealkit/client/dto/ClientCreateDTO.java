@@ -1,6 +1,7 @@
 package com.teammealkit.mealkit.client.dto;
 
 import com.teammealkit.mealkit.client.domain.Client;
+import com.teammealkit.mealkit.client.role.UserRole;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,18 +15,18 @@ import java.time.LocalDateTime;
 @Builder
 public class ClientCreateDTO {
     private String email;
-    private String password;
+    private String pw;
     private String userName;
     private LocalDate birthDay;
     private String address;
     private String phone;
     private Long buyCnt;
-    private String role;
+    private UserRole role;
 
     public Client toEntity() {
         return Client.builder()
                 .email(this.email)
-                .password(this.password)
+                .pw(this.pw)
                 .userName(this.userName)
                 .birthDay(this.birthDay)
                 .address(this.address)

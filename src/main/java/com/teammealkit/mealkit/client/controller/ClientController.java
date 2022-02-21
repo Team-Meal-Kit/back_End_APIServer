@@ -1,15 +1,22 @@
 package com.teammealkit.mealkit.client.controller;
 
+import com.teammealkit.mealkit.Message.Message;
+import com.teammealkit.mealkit.Message.Message2;
+import com.teammealkit.mealkit.Message.StatusEnum;
 import com.teammealkit.mealkit.client.domain.Client;
+import com.teammealkit.mealkit.client.filter.TokenUtils;
+import com.teammealkit.mealkit.client.repository.ClientRepository;
 import com.teammealkit.mealkit.client.service.ClientService;
 import com.teammealkit.mealkit.client.dto.ClientCreateDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.coyote.Response;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.nio.charset.Charset;
@@ -21,20 +28,8 @@ import java.nio.charset.Charset;
 @Lazy
 public class ClientController {
     private final ClientService clientService;
-
-//    @GetMapping("/hello")
-//    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-//        log.info("hello");
-//
-//        return "hello";
-//    }
-//
-//    @GetMapping("/main")
-//    public String main() {
-//        log.info("main");
-//
-//        return "main";
-//    }
+    private final ClientRepository clientRepository;
+    private final BCryptPasswordEncoder passwordEncoder;
 
     // 회원전체 조회
     @GetMapping()
@@ -49,31 +44,46 @@ public class ClientController {
 
     // 회원가입
     @PostMapping()
-    public ResponseEntity<Message2> createClient(@RequestBody ClientCreateDTO dto) {
-        log.info("create Client::start");
-        log.info("create Client::" + dto.getEmail());
-        // DB에 회원정보 저장
-        Client client = clientService.createClient(dto);
-        Message2 message = new Message2();
-        HttpHeaders headers= new HttpHeaders();
-        headers.setContentType(new MediaType("application", "json", Charset.forName("UTF-8")));
-        if (! (client == null)) {
-            // 회원가입 성공
-            log.info("create Client::Success!!");
-            message.setStatus(StatusEnum.OK.getStatusCode());
-            message.setMessage(StatusEnum.OK);
-        } else {
-            // 회원가입 실패
-            log.info("create Client::Email that already exits.");
-            message.setStatus(StatusEnum.FORBIDDEN.getStatusCode());
-            message.setMessage(StatusEnum.FORBIDDEN);
-        }
-        return new ResponseEntity<>(message, headers, HttpStatus.OK);
+    public ResponseEntity<String> createClient(@RequestBody ClientCreateDTO dto) {
+        return clientService.isEmailDuplicated(dto.getEmail())
+                ? ResponseEntity.badRequest().build()
+                : ResponseEntity.ok(TokenUtils.generateJwtToken(clientService.signUp(dto)));
+
+//        Message message = new Message();
+//        HttpHeaders headers = new HttpHeaders();
+//        headers.setContentType(new MediaType("application", "json", Charset.forName("UTF-8")));
+
+        // 중복검사
+//        if (clientService.isEmailDuplicated(dto.getEmail())) {
+//            return ResponseEntity.badRequest().build();
+//        } else {
+//            return ResponseEntity.ok((TokenUtils.generateJwtToken(clientService.signUp(dto))));
+//        }
+//        return new ResponseEntity<Message>(message, headers, HttpStatus.OK);
+
+//        // DB에 회원정보 저장
+//        Client client = clientService.createClient(dto);
+//        Message message = new Message();
+//        HttpHeaders headers = new HttpHeaders();
+//        headers.setContentType(new MediaType("application", "json", Charset.forName("UTF-8")));
+//        if (! (client == null)) {
+//            // 회원가입 성공
+//            message.setStatus(StatusEnum.OK.getStatusCode());
+//            message.setMessage(StatusEnum.OK);
+//        } else {
+//            // 회원가입 실패
+//            message.setStatus(StatusEnum.FORBIDDEN.getStatusCode());
+//            message.setMessage(StatusEnum.FORBIDDEN);
+//        }
+//        return new ResponseEntity<Message>(message, headers, HttpStatus.OK);
     }
 
-    // 중복검사
+    // 중복검사 페이지
     @GetMapping("/user-emails/{email}/exists")
     public ResponseEntity<Boolean> checkEmailDuplicate(@PathVariable String email) {
-        return ResponseEntity.ok(clientService.checkEmailDuplicate(email));
+        return ResponseEntity.ok(clientService.isEmailDuplicated(email));
     }
+
+    // 로그인
+
 }
