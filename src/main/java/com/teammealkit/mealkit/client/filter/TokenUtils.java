@@ -56,9 +56,9 @@ public class TokenUtils {
     }
 
     private static Date createExpireDateForOneYear() {
-        // 토큰 만료시간은 30일으로 설정
+        // 토큰 만료시간은 2시간으로 설정
         Calendar c = Calendar.getInstance();
-        c.add(Calendar.DATE, 30);
+        c.add(Calendar.HOUR, 2);
         return c.getTime();
     }
 

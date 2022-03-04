@@ -1,25 +1,17 @@
 package com.teammealkit.mealkit.client.controller;
 
-import com.teammealkit.mealkit.Message.Message;
-import com.teammealkit.mealkit.Message.Message2;
-import com.teammealkit.mealkit.Message.StatusEnum;
 import com.teammealkit.mealkit.client.domain.Client;
+import com.teammealkit.mealkit.client.dto.ClientListResponseDTO;
 import com.teammealkit.mealkit.client.filter.TokenUtils;
 import com.teammealkit.mealkit.client.repository.ClientRepository;
 import com.teammealkit.mealkit.client.service.ClientService;
 import com.teammealkit.mealkit.client.dto.ClientCreateDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.coyote.Response;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-
-import java.nio.charset.Charset;
 
 @Slf4j
 @RestController
@@ -31,15 +23,22 @@ public class ClientController {
     private final ClientRepository clientRepository;
     private final BCryptPasswordEncoder passwordEncoder;
 
-    // 회원전체 조회
-    @GetMapping()
-    public ResponseEntity selectClient(@RequestParam(required = false) Long id) {
-        log.info("selectClient::Success!!");
+    // 회원 전체 조회
+//    @GetMapping()
+//    public ResponseEntity selectClient(@RequestParam(required = false) Long id) {
+//        log.info("selectClient::Success!!");
+//
+//        if (id == null)
+//            return ResponseEntity.ok(clientService.selectClientList());
+//
+//        return ResponseEntity.ok(clientService.selectClient(id));
+//    }
+    @GetMapping(value = "/list")
+    public ResponseEntity<ClientListResponseDTO> findAll() {
+        final ClientListResponseDTO clientListResponseDTO = ClientListResponseDTO.builder()
+                .clientList(clientService.selectClientList()).build();
 
-        if (id == null)
-            return ResponseEntity.ok(clientService.selectClientList());
-
-        return ResponseEntity.ok(clientService.selectClient(id));
+        return ResponseEntity.ok(clientListResponseDTO);
     }
 
     // 회원가입
@@ -85,5 +84,8 @@ public class ClientController {
     }
 
     // 로그인
-
+    @PostMapping("/login")
+    public ResponseEntity<String> login(@RequestBody Client client) {
+        return ResponseEntity.ok(clientService.login(client.getEmail(), client.getPw()));
+    }
 }
